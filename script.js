@@ -8,10 +8,14 @@ console.log(fruits[0]);
 
 function myfunc(Boys, Girls) {
     if(Girls > Boys) {
-         console.log("Girls are more populated in this world!");
+         return "Girls are more populated in this world!"
      } else {
-        console.log("Boys are more populated");
+        return "Boys are more populated"
         }
+}
 
-myfunc(1333233338, 23322233);
+let Boys = 100;
+let Girls = 300;
 
+let compare = myfunc(Boys, Girls);
+console.log(compare);
