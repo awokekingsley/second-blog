@@ -17,5 +17,4 @@ function myfunc(Boys, Girls) {
 let Boys = 100;
 let Girls = 300;
 
-let compare = myfunc(Boys, Girls);
-console.log(compare);
+console.log(myfunc(Boys,Girls));
