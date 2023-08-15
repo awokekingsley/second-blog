@@ -48,3 +48,22 @@ while (y < 20) {
     console.log(y);
     y++;
 }
+
+/*
+//A PROGRAM ASKING USER FOR AN INPUT(INT), IF THE INPUT IS NOT INT THEN IT WILL BREAK AND CALCULATR THE TOTAL INPUT THE USER HAS ENTERED
+
+let toBeCalculatedWith = 0;
+while (true) {
+    const userInput = +prompt("Enter a Number: ");
+    if (!userInput) break;
+    toBeCalculatedWith += userInput;
+}
+console.log(userInput);
+*/
+
+// THIS PROGRAM IS ABOUT CONTINUE, SO THE PROGRAM CONTINUED WHEN THE I MULTIPLY BY 2 IS NOT EQUALS TO ZERO.
+for (let i = 0; i < 10; i++) {
+    if (i * 2 == 0) continue;
+    console.log(i);
+}
+
